@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0"
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <servlet>
+    <servlet-name>Up2Servlet</servlet-name>
+    <servlet-class>org.xiaoxz.up.Up2Servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Up3Servlet</servlet-name>
+    <servlet-class>org.xiaoxz.up.Up3Servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpImageServlet</servlet-name>
+    <servlet-class>org.xiaoxz.up.UpImageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpServlet</servlet-name>
+    <servlet-class>org.xiaoxz.enhance.UpServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>FastServlet</servlet-name>
+    <servlet-class>org.xiaoxz.enhance.FastServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>Up2Servlet</servlet-name>
+    <url-pattern>/Up2Servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Up3Servlet</servlet-name>
+    <url-pattern>/Up3Servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpImageServlet</servlet-name>
+    <url-pattern>/UpImageServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpServlet</servlet-name>
+    <url-pattern>/UpServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FastServlet</servlet-name>
+    <url-pattern>/FastServlet</url-pattern>
+  </servlet-mapping>
+
+</web-app>
